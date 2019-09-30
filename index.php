@@ -35,8 +35,8 @@
 	<div class="text-center">
 		<h1>畢業學分計算器</h1>	
 	</div>
-	<div style="width:100%;height:auto;margin-left:10px;margin-bottom: 20px">
-		<h6 style="color: red;">* 目前僅適用長庚大學醫務管理學系108學年度入學學生</h6>
+	<div style="width:100%;height:auto;margin-left:10px;margin-right:10px;margin-bottom: 20px">
+		<h6 style="color: red; word-break: break-all">* 目前僅適用長庚大學醫務管理學系108學年度入學學生</h6>
 		<h6 style="color: red;">* BUG、希望開發功能，歡迎聯繫 <a href="mailto:b123105@gmail.com">b123105@gmail.com</a></h6>	
 	</div>
 	<form method='POST' id='creditData'>
@@ -803,10 +803,10 @@
 		<!-- 	置底 footer -->
 		<div class="card">
 			<div class="card-body">
-				<button style='margin-left:10px; margin-right:10px;'type="button" class="btn btn-info" data-toggle="modal" data-target="#creditInfo">
+				<button style='margin-left:10px; margin-right:10px;'type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#creditInfo">
 	  				查看學分計算說明
 				</button>
-				<button id="submitBtn" style='margin-left:10px; margin-right:10px;' type="button" data-toggle="modal" data-target="#resultInfo" class="btn btn-primary">計算畢業學分</button>
+				<button id="submitBtn" style='margin-left:10px; margin-right:10px;' type="button" data-toggle="modal" data-target="#resultInfo" class="btn btn-primary btn-sm">計算畢業學分</button>
 		  	</div>
 		</div>
 		<!-- Modal -->
