@@ -821,6 +821,11 @@
 		        </button>
 		      </div>
 		      <div class="modal-body">
+		      	<h8>資料來源：
+		      		<a href="http://hcm.cgu.edu.tw/ezfiles/56/1056/img/86/Curriculum_UG108_1080422.pdf" target='_blank'>
+		      			長庚大學醫務管理學系
+		      		</a>
+		      	</h8>
 				<ol>
 					<li>
 						畢業學分：128學分。(含系必修：76學分)
