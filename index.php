@@ -36,10 +36,12 @@
 	<div class="text-center">
 		<h1>畢業學分計算器</h1>	
 	</div>
+	<!-- 	note 區 -->
 	<div style="width:100%;height:auto;margin-left:10px;margin-right:10px;margin-bottom: 20px">
 		<h6 style="color: red; word-break: break-all">* 目前僅適用長庚大學醫務管理學系108學年度入學學生</h6>
 		<h6 style="color: red;">* BUG、希望開發功能，歡迎聯繫 <a href="mailto:b123105@gmail.com">b123105@gmail.com</a></h6>	
 	</div>
+	<!-- 必修、選修、通識課程 -->
 	<form method='POST' id='creditData'>
 		<div class="form-group" style="width:80%;height:auto;margin-left:10px;margin-bottom: 20px">
 			<label for="othersCreditNum"><span style="color: red;">*</span> 外系學分數 (非系必修選修、通識課程)</label>
@@ -820,6 +822,7 @@
 		          <span aria-hidden="true">&times;</span>
 		        </button>
 		      </div>
+		      <!-- 學分說明視窗 -->
 		      <div class="modal-body">
 		      	<h8>資料來源：
 		      		<a href="http://hcm.cgu.edu.tw/ezfiles/56/1056/img/86/Curriculum_UG108_1080422.pdf" target='_blank'>
@@ -872,7 +875,7 @@
 		  </div>
 		</div>
 
-		<!-- Modal -->
+		<!-- 學分結果計算視窗 -->
 		<div class="modal fade" id="resultInfo" tabindex="-1" role="dialog" aria-labelledby="resultInfoTitle" aria-hidden="true">
 		  <div class="modal-dialog" role="document">
 		    <div class="modal-content">

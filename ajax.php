@@ -1,5 +1,6 @@
 <?php 
 
+// 預設所有學分總和為 0 
 $coreCourseSum = 0;
 $optionalSum = 0;
 $fourCourseSum = 0;
@@ -11,6 +12,7 @@ $generalEleSum = 0;
 $generalCmedicalSum = 0;
 $generalEarlyThrSum = 0;
 
+// 該分類只有一堂課程的直接拿 post 的 value
 $otherCreditSum = $_POST['otherCredit'] ? $_POST['otherCredit'] : 0;
 $generalMedicalSum = $_POST['generalMedical_1'] ? $_POST['generalMedical_1'] : 0;
 $generalRobotSum = $_POST['generalRobot_1'] ? $_POST['generalRobot_1'] : 0;
@@ -25,6 +27,8 @@ $AICourse_1 = $_POST['AICourse_1'] ? $_POST['AICourse_1'] : 0;
 $AICourse_2 = $_POST['AICourse_2'] ? $_POST['AICourse_2'] : 0;
 $AICourseSum = $AICourse_1 + $AICourse_2;
 
+// $i 的值設定為該分類最多課程的數字，例如必修有 40 個課程，就設定 40
+// 這個迴圈會執行來加總該分類所有的學分數，將最上面預設總和為 0 的變數計算出總和
 for ($i=1; $i < 40; $i++) { 
 	$coreCourseNum = 'coreCourse'.'_'.strval($i);
 	$optionalNum = 'optionalCourse'.'_'.strval($i);
@@ -100,8 +104,10 @@ for ($i=1; $i < 40; $i++) {
 	$generalEarlyThrSum += $generalEarlyThrValue;
 }
 
+// 最後 output 並顯示在計算結果的文字初始設定
 $note = '';
 
+// 下面皆為計算學分邏輯，只要未符合條件，就跳出顯示
 $generalCredit = $generalArtSum + $generalSocialSum + $generalEnglishSum + $generalNatureSum + $generalEleSum + $generalCmedicalSum + $generalEarlyThrSum + $generalMedicalSum + $generalRobotSum + $generalITSum + $generalPTSum + $generalBiomedicalSum + $generalBioTechSum + $generalCMESum + $generalMcenterSum;
 
 $multGeneral = array(
