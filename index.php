@@ -50,280 +50,282 @@
 		<!-- 必修 -->
 		<div id='board' style="width:100%;height:auto;margin-left:10px;margin-bottom: 20px">
 			<h3>必修學分</h3>
+			<input name="clickAll" id="coreCourse-clickAll" type="checkbox"> 全選
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_1' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_1' value="3">
 			 	<label class="form-check-label" for="coreCourse_1">微積分</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_2' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_2' value="3">
 			 	<label class="form-check-label" for="coreCourse_2">會計學(1)</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_3' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_3' value="3">
 			 	<label class="form-check-label" for="coreCourse_3">公共衛生學</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_4' value="2">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_4' value="2">
 			 	<label class="form-check-label" for="coreCourse_4">普通心理學</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_5' value="0">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_5' value="0">
 			 	<label class="form-check-label" for="coreCourse_5">軍訓(1)</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_6' value="0">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_6' value="0">
 			 	<label class="form-check-label" for="coreCourse_6">體育(1)</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_7' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_7' value="3">
 			 	<label class="form-check-label" for="coreCourse_7">會計學(2)</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_8' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_8' value="3">
 			 	<label class="form-check-label" for="coreCourse_8">統計學(1)</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_9' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_9' value="3">
 			 	<label class="form-check-label" for="coreCourse_9">經濟學(1)</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_10' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_10' value="3">
 			 	<label class="form-check-label" for="coreCourse_10">生物醫學詞彙</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_11' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_11' value="3">
 			 	<label class="form-check-label" for="coreCourse_11">醫務管理概論</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_12' value="0">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_12' value="0">
 			 	<label class="form-check-label" for="coreCourse_12">軍訓(2)</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_13' value="0">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_13' value="0">
 			 	<label class="form-check-label" for="coreCourse_13">體育(2)</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_14' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_14' value="3">
 			 	<label class="form-check-label" for="coreCourse_14">設計導論</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_15' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_15' value="3">
 			 	<label class="form-check-label" for="coreCourse_15">統計學(2)</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_16' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_16' value="3">
 			 	<label class="form-check-label" for="coreCourse_16">健康保險制度</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_17' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_17' value="3">
 			 	<label class="form-check-label" for="coreCourse_17">經濟學(2)</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_18' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_18' value="3">
 			 	<label class="form-check-label" for="coreCourse_18">醫院管理</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_19' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_19' value="3">
 			 	<label class="form-check-label" for="coreCourse_19">流行病學導論</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_20' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_20' value="3">
 			 	<label class="form-check-label" for="coreCourse_20">醫療資訊管理</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_21' value="0">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_21' value="0">
 			 	<label class="form-check-label" for="coreCourse_21">社會關懷實作</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_22' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_22' value="3">
 			 	<label class="form-check-label" for="coreCourse_22">研究方法</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_23' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_23' value="3">
 			 	<label class="form-check-label" for="coreCourse_23">健康經濟學導論</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_24' value="2">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_24' value="2">
 			 	<label class="form-check-label" for="coreCourse_24">專業倫理</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_25' value="1">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_25' value="1">
 			 	<label class="form-check-label" for="coreCourse_25">醫院實務</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_26' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_26' value="3">
 			 	<label class="form-check-label" for="coreCourse_26">專案管理</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_27' value="2">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_27' value="2">
 			 	<label class="form-check-label" for="coreCourse_27">醫事法規</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_28' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_28' value="3">
 			 	<label class="form-check-label" for="coreCourse_28">醫務管理決策</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_29' value="3">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_29' value="3">
 			 	<label class="form-check-label" for="coreCourse_29">醫務管理專題研究</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_30' value="2">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_30' value="2">
 			 	<label class="form-check-label" for="coreCourse_30">健康產業</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='coreCourse_31' value="10">
+			 	<input class="form-check-input" id="coreCourse" type="checkbox" name='coreCourse_31' value="10">
 			 	<label class="form-check-label" for="coreCourse_31">畢業專題</label>
 			</div>
 		</div>
 		<!-- 選修 -->
 		<div id='board' style="width:100%;height: auto;margin-left:10px;margin-bottom: 20px">
 			<h3>選修學分</h3>
+			<input name="clickAll" id="optionalCourse-clickAll" type="checkbox"> 全選
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_1' value="3">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_1' value="3">
 			 	<label class="form-check-label" for="optionalCourse_1">管理學</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_2' value="3">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_2' value="3">
 			 	<label class="form-check-label" for="optionalCourse_2">成本會計學</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_3' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_3' value="2">
 			 	<label class="form-check-label" for="optionalCourse_3">溝通技巧與表達</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_4' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_4' value="2">
 			 	<label class="form-check-label" for="optionalCourse_4">英文口語溝通</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_5' value="3">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_5' value="3">
 			 	<label class="form-check-label" for="optionalCourse_5">生技健康產業分析與經營</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_6' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_6' value="2">
 			 	<label class="form-check-label" for="optionalCourse_6">精神醫學</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_7' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_7' value="2">
 			 	<label class="form-check-label" for="optionalCourse_7">法律與醫療</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_8' value="1">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_8' value="1">
 			 	<label class="form-check-label" for="optionalCourse_8">健康與選擇</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_9' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_9' value="2">
 			 	<label class="form-check-label" for="optionalCourse_9">疾病篩檢理論與管理</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_10' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_10' value="2">
 			 	<label class="form-check-label" for="optionalCourse_10">全球衛生</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_11' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_11' value="2">
 			 	<label class="form-check-label" for="optionalCourse_11">Python程式語言</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_12' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_12' value="2">
 			 	<label class="form-check-label" for="optionalCourse_12">流行病學特論</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_13' value="3">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_13' value="3">
 			 	<label class="form-check-label" for="optionalCourse_13">台灣人口變遷</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_14' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_14' value="2">
 			 	<label class="form-check-label" for="optionalCourse_14">慢性醫療照護管理*</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_15' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_15' value="2">
 			 	<label class="form-check-label" for="optionalCourse_15">高齡社會學</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_16' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_16' value="2">
 			 	<label class="form-check-label" for="optionalCourse_16">專題研究</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_17' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_17' value="2">
 			 	<label class="form-check-label" for="optionalCourse_17">健康資料管理導論</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_18' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_18' value="2">
 			 	<label class="form-check-label" for="optionalCourse_18">問卷設計導論</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_19' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_19' value="2">
 			 	<label class="form-check-label" for="optionalCourse_19">預防醫學</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_20' value="3">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_20' value="3">
 			 	<label class="form-check-label" for="optionalCourse_20">管理科學</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_21' value="3">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_21' value="3">
 			 	<label class="form-check-label" for="optionalCourse_21">生物科技管理概論</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_22' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_22' value="2">
 			 	<label class="form-check-label" for="optionalCourse_22">實證預防保健服務管理導論</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_23' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_23' value="2">
 			 	<label class="form-check-label" for="optionalCourse_23">醫療品質管理</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_24' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_24' value="2">
 			 	<label class="form-check-label" for="optionalCourse_24">醫療政策與政治</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_25' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_25' value="2">
 			 	<label class="form-check-label" for="optionalCourse_25">生技製藥產業之市場分析</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_26' value="3">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_26' value="3">
 			 	<label class="form-check-label" for="optionalCourse_26">醫療照護多媒體內容分析</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_27' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_27' value="2">
 			 	<label class="form-check-label" for="optionalCourse_27">癌症登記管理</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_28' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_28' value="2">
 			 	<label class="form-check-label" for="optionalCourse_28">高齡健康照護與福利政策</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_29' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_29' value="2">
 			 	<label class="form-check-label" for="optionalCourse_29">國際健康照護倫理與法律*</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_30' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_30' value="2">
 			 	<label class="form-check-label" for="optionalCourse_30">海外實習</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_31' value="5">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_31' value="5">
 			 	<label class="form-check-label" for="optionalCourse_31">國際醫療產業專題*</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_32' value="3">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_32' value="3">
 			 	<label class="form-check-label" for="optionalCourse_32">醫療財務管理學</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_33' value="3">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_33' value="3">
 			 	<label class="form-check-label" for="optionalCourse_33">生物科技管理研究</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_34' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_34' value="2">
 			 	<label class="form-check-label" for="optionalCourse_34">醫院安全衛生管理</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_35' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_35' value="2">
 			 	<label class="form-check-label" for="optionalCourse_35">專案實作</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_36' value="4">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_36' value="4">
 			 	<label class="form-check-label" for="optionalCourse_36">校外實習</label>
 			</div>
 			<div class="form-check form-check-inline">
-			 	<input class="form-check-input" type="checkbox" name='optionalCourse_37' value="2">
+			 	<input class="form-check-input" id="optionalCourse" type="checkbox" name='optionalCourse_37' value="2">
 			 	<label class="form-check-label" for="optionalCourse_37">機器學習概念</label>
 			</div>
 		</div>
@@ -923,6 +925,30 @@
 				}
 			});		
 		})
+		// 控制必修課全選/取消全選
+		$("#coreCourse-clickAll").click(function() {
+		   if($("#coreCourse-clickAll").prop("checked")) {
+		     $("input[id='coreCourse']").each(function() {
+		         $(this).prop("checked", true);
+		     });
+		   } else {
+		     $("input[id='coreCourse']").each(function() {
+		         $(this).prop("checked", false);
+		     });           
+		   }
+		});
+		// 控制選修課全選/取消全選
+		$("#optionalCourse-clickAll").click(function() {
+		   if($("#optionalCourse-clickAll").prop("checked")) {
+		     $("input[id='optionalCourse']").each(function() {
+		         $(this).prop("checked", true);
+		     });
+		   } else {
+		     $("input[id='optionalCourse']").each(function() {
+		         $(this).prop("checked", false);
+		     });           
+		   }
+		});
 	</script>
 </body>
 </html>
